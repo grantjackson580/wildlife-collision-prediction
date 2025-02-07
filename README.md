@@ -28,9 +28,19 @@ This project aims to predict wildlife-vehicle collisions by analyzing environmen
   - Using prediction error values to measure
 
  ## Installation 
+ 1. Clone the repository and install required packages
  ```bash
 git clone https://github.com//grantjackson580//wildlife-collision-prediction
 cd wildlife-collision-prediction
 pip install -r requirements.txt
+```
+2. Create and activate virtual environment
+```bash
+python -m venv env
+source env/bin/activate # On Windows: env/Scripts/activate
+```
+3. Set up Google Earth Engine authentication
+```bash
+earthengine authenticate
 ```
  
