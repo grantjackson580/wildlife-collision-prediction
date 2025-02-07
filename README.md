@@ -1,2 +1,36 @@
-# wildlife-collision-prediction
-Machine learning framework for predicting wildlife-vehicle collisions using environmental features extracted from satellite imagery and road segment data. Integrates Landsat imagery analysis with spatial data processing to identify high-risk road segments
+# Roadkill Prediction Project
+
+## Overview
+This project aims to predict wildlife-vehicle collisions by analyzing environmental characteristics extracted from satellite imagery along road segments. Using machline learning techniques and geospatial analysis, we combine road segment data with Landsat imagery to identify high-risk areas for wildlife-vehicle collisions.
+
+## Features
+- Satellite Imagery Collection
+  - Automated collection of Landsat Imagery (5,7,and 8)
+  - Multi-buffer zone analysis
+  - Fall season (September-October) imagery focus
+  - 10m resolution output
+ 
+- Environmental Feature Extraction
+  - Sprectral Indices (NDVI, NDWI, NDBI)
+  - Band statistics and texture features
+  - Multi-scale environmental analysis
+  - Feature validation and quality control
+ 
+- Band Segment Processing
+  - Aggregation from 25m to 100m/200m segments
+  - Spatial continuity validation
+  - Buffer zone optimization
+  - Connectivity analysis
+
+- RandomForest Analysis
+  - RandomForestClassfier Models
+  - Determining best aggregation and buffer size combination
+  - Using prediction error values to measure
+
+ ## Installation 
+ ```bash
+git clone https://github.com//grantjackson580//wildlife-collision-prediction
+cd wildlife-collision-prediction
+pip install -r requirements.txt
+```
+ 
