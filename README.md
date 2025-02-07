@@ -47,4 +47,6 @@ earthengine authenticate
   - Must run imagery collection on aggregated .gpkg files
   - Extract features from specific file directory (contains .tif files)
   - Then use Dataset Merging to combine extracted features .csv with data from aggregated .gpkg files
- 
+
+## CURRENTLY IN PROGRESS WITH THIS PROJECT
+
