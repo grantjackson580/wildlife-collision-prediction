@@ -43,4 +43,8 @@ source env/bin/activate # On Windows: env/Scripts/activate
 ```bash
 earthengine authenticate
 ```
+4. (Notes)
+  - Must run imagery collection on aggregated .gpkg files
+  - Extract features from specific file directory (contains .tif files)
+  - Then use Dataset Merging to combine extracted features .csv with data from aggregated .gpkg files
  
